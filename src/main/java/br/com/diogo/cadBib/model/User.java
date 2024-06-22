@@ -1,8 +1,9 @@
 package br.com.diogo.cadBib.model;
 
 
-import jakarta.persistence.*;
 import lombok.Data;
+
+import javax.persistence.*;
 
 @Entity
 @Table(name = "users")
